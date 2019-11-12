@@ -1,0 +1,20 @@
+Package: LBS
+Version: 0.1.0
+Date: 2019-11-1
+Title: Location Based Service Analysis of China
+Authors@R: c(person(given = "Dongping", family = "Fan",email = "fdp@pku.edu.cn",role = c("aut", "cre")))
+Maintainer: Dongping Fan <fdp@pku.edu.cn>
+Description: 
+  A highly efficient R tool suite for geographic coding/inverse geographic coding, which provides the ability to convert structured addresses to and from latitude and longitude. It also provides the functions for calculation of distance between addresses and the calculation of address text similarity and integrity.
+Depends: R(>= 3.3.0)
+Imports: data.table(>= 1.12.6),dplyr,cli,creditmodel,geosphere,jiebaR,rjson,stringr,foreach
+Suggests: knitr
+Encoding: UTF-8
+ByteCompile: yes
+LazyData: no
+LazyLoad: yes
+License: AGPL-3
+RoxygenNote: 6.1.1
+NeedsCompilation: no
+Packaged: 2019-10-18 07:51:27 UTC; HANSEN
+Author: Dongping Fan [aut, cre]
